@@ -1,0 +1,81 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #290b17;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+
+  background-image: url("fondo.png"); /* cambia el nombre por tu archivo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; /* opcional, para efecto "parallax" */
+}
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eeeeee;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #0056b3;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  background-color: #d6d3d3;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.bloque-normal {
+  height: 25vh; /* 50% del alto de la pantalla */
+  background-color: #e3f2fd; /* azul claro */
+  padding: 2rem;
+  margin-left: auto;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center; /* centra verticalmente el texto */
+  justify-content: center; /* centra horizontalmente */
+  text-align: center;
+  width: 50vh;
+  overflow: auto;
+}
