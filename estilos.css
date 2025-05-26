@@ -1,34 +1,117 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #290b17;
+  background-color: black;
   color: #1a1a1a;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #0056b3;
-  color: white;
+  background-image: url("menu fondo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
   padding: 2rem;
   text-align: center;
-
-  background-image: url("fondo.png"); /* cambia el nombre por tu archivo */
+  height: 90vh;
+  background-color: gray;
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-  background-attachment: local; /* opcional, para efecto "parallax" */
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
 }
-}
-
-section {
+header2 {
+  background-image: url("Proytecto logo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
   padding: 2rem;
-  border-bottom: 1px solid #ddd;
-}
+  text-align: center;
+  height: 90vh;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
 
-h2 {
-  color: #0056b3;
 }
+header3 {
+  background-image: url("AI fondo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  height: 90vh;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
 
+}
+header4 {
+  background-image: url("Vinculacion logo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  height: 90vh;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
+header5 {
+  background-image: url("conclucion logo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  height: 90vh;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+header6 {
+  background-image: url("Referencias logo.png");
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  height: 90vh;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: local; 
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
 footer {
   text-align: center;
   padding: 1rem;
@@ -36,19 +119,18 @@ footer {
   font-size: 0.9rem;
 }
 
-a {
-  color: #0056b3;
-}
 nav {
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: red;
   z-index: 100;
+
 }
+
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end; 
   background-color: #d6d3d3;
   padding: 0.5rem;
   margin: 0;
@@ -60,36 +142,45 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #0056b3;
+  color: black;
   font-weight: bold;
 }
 
-.bloque-derecho {
-  height: 50vh; 
-  background-color: #e3f2fd; 
-  padding: 2rem;
-  margin-left: auto;
-
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.flex-container {
   display: flex;
-  align-items: center; 
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  background-color: gray;
+  box-shadow: 0 10px 10px white; 
+  border-radius: 5rem;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  width: 75vh;
-  overflow: auto;
 }
-.bloque-izquierdo {
-  height: 50vh; 
-  background-color: #e3f2fd; 
-  padding: 2rem;
-  margin-right: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  text-align: center;
-  width: 75vh;
-  overflow: auto;
+
+
+.bloque-texto {
+  max-width: 60%;
+  padding: 5px;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  width: 70%;     
+  padding: 2rem;  
+}
+
+.container img {
+  max-width: 120%;
+  margin: 0;
+
+}
+a {
+  color: red;
+  text-decoration: none;
+
+a:hover {
+  text-decoration: underline;
 }
